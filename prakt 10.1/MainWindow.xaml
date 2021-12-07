@@ -1,0 +1,22 @@
+﻿<Window x:Class="prakt_10._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prakt_10._1"
+        mc:Ignorable="d"
+        Title="Практическая работа №10" Height="303.061" Width="592.219" ResizeMode="CanMinimize" Icon="money_protection_bank_safe_security_icon_188769.ico">
+    <Grid>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="248" Margin="10,10,0,0" VerticalAlignment="Top" Width="212"/>
+        <TextBox x:Name="addValue" HorizontalAlignment="Left" Height="23" Margin="338,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Добавить элемент" HorizontalAlignment="Left" Margin="338,38,0,0" VerticalAlignment="Top" Width="119" Click="Add"/>
+        <TextBox x:Name="outEven" HorizontalAlignment="Left" Height="23" Margin="250,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" IsReadOnly="True"/>
+        <Button Content="Рассчитать" HorizontalAlignment="Left" Margin="360,151,0,0" VerticalAlignment="Top" Width="101" Click="Calculate"/>
+        <TextBox x:Name="outOdd" HorizontalAlignment="Left" Height="23" Margin="414,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" IsReadOnly="True"/>
+        <Label Content="Кол-во чётных чисел" HorizontalAlignment="Left" Margin="250,81,0,0" VerticalAlignment="Top"/>
+        <Label Content="Кол-во нечётных чисел" HorizontalAlignment="Left" Margin="414,81,0,0" VerticalAlignment="Top"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="470,238,0,0" VerticalAlignment="Top" Width="95" Click="Exit"/>
+        <Button Content="О программе" HorizontalAlignment="Left" Margin="257,236,0,0" VerticalAlignment="Top" Width="95" Click="Info"/>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="360,176,0,0" VerticalAlignment="Top" Width="101" Click="Clear"/>
+    </Grid>
+</Window>
